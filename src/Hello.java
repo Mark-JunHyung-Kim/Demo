@@ -15,13 +15,16 @@ public class Hello {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("What is your Name >> ");
-		name = input.nextLine();
-		
 		System.out.println("What is your Age >> ");
 		age = input.nextInt();
+		input.nextLine();
+		
+		System.out.println("What is your Name >> ");
+		name = input.nextLine();
 				
+		
 		System.out.println("Hello! My Age is = " + age + " and Name is = " + name);
+		
 		
 	}
 }
